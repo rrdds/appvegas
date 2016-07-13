@@ -1,9 +1,108 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>Nothing here</title>
+  <meta charset="UTF-8"><title></title>
+  <style type="text/css">
+
+  #game_table_surface {
+    display: block;
+    background-color: #00aa00;
+    width:200px;
+    height:150px;
+  }
+
+  #game_table_surface_grid {
+  }
+
+  #sq_3, #sq_5, #sq_7, #sq_9, #sq_11, #sq_13, #sq_15,
+  #sq_17, #sq_19, #sq_21, #sq_23, #sq_25, #sq_27, #sq_29,
+  #sq_31, #sq_33, #sq_35
+  {
+    display: block;
+    background-color: red;
+    color: orange;
+  }
+
+  </style>
+  <script src="jquery.min.js"></script>
+
+  <!--link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"-->
+  <link rel="stylesheet" href="w3.css">
+
 </head>
 <body>
-Something here please
+
+<div id="menu" class="w3-container w3-teal">Menu</div>
+
+<div id="game_table" class="w3-container">
+  Game Table
+
+  <div id="game_table_surface">
+
+    <div id="game_table_surface_grid">Grid!
+
+      <table class="w3-table">
+        <tr>
+          <td id="sq_3">3</td>
+          <td id="sq_6">6</td>
+          <td id="sq_9">9</td>
+          <td id="sq_12">13</td>
+          <td id="sq_15">15</td>
+          <td id="sq_18">18</td>
+          <td id="sq_21">21</td>
+          <td id="sq_24">24</td>
+          <td id="sq_27">27</td>
+          <td id="sq_30">30</td>
+          <td id="sq_33">33</td>
+          <td id="sq_36">36</td>
+        </tr>
+        <tr>
+          <td id="sq_2">2</td>
+          <td id="sq_5">5</td>
+          <td id="sq_8">8</td>
+          <td id="sq_11">11</td>
+          <td id="sq_14">14</td>
+          <td id="sq_17">17</td>
+          <td id="sq_20">20</td>
+          <td id="sq_23">23</td>
+          <td id="sq_26">26</td>
+          <td id="sq_29">29</td>
+          <td id="sq_32">32</td>
+          <td id="sq_35">35</td>
+        </tr>
+        <tr>
+          <td id="sq_1">1</td>
+          <td id="sq_4">4</td>
+          <td id="sq_7">7</td>
+          <td id="sq_10">10</td>
+          <td id="sq_13">13</td>
+          <td id="sq_16">16</td>
+          <td id="sq_19">19</td>
+          <td id="sq_22">22</td>
+          <td id="sq_25">25</td>
+          <td id="sq_28">28</td>
+          <td id="sq_31">31</td>
+          <td id="sq_34">34</td>
+        </tr>
+      </table>
+
+    </div>
+
+
+
+  </div>
+
+</div>
+
+
+<script>
+
+  // Hide some things
+  //$("#game_table").hide();
+
+</script>
+
+
+
 </body>
 </html>
-
